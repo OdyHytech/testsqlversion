@@ -3,7 +3,7 @@
 CREATE TABLE [dbo].[test](
 	[id] [int] IDENTITY(1,1) NOT NULL,
 	[name] [varchar](40) NULL,
-	[test] [int] NULL,
+	[test] [varchar](20) NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
